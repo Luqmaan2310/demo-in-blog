@@ -6,7 +6,7 @@ import { filter, distinctUntilChanged } from 'rxjs/operators';
 @Component({
   selector: 'app-breadcrumb',
   templateUrl: './breadcrumb.component.html',
-  styleUrls: ['./breadcrumb.component.scss']
+  styleUrls: ['./breadcrumb.component.css']
 })
 export class BreadcrumbComponent implements OnInit {
   public breadcrumbs: IBreadCrumb[];
